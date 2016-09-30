@@ -532,4 +532,38 @@ body {
   font-size: 10px;
   left: 10px;
   position: absolute; }
->>>>>>> 42974af644a5548c091589e7cd244eea528e82d8
+
+dl.arbeitspakete{
+	margin: 0;
+	border-top: dotted 1px #dd1166;
+	margin-top: 2em;
+	padding-top: 1em;
+	display: block;
+}
+
+dl.arbeitspakete dt,dl.arbeitspakete dd{
+	float: left;
+	font-weight: normal;
+	margin: 0;
+	font-size: 0.8em;
+
+}
+
+dl.arbeitspakete dt{
+	color: #4952e1;
+	clear: both;
+}
+
+dl.arbeitspakete dt::after{
+	content: ":";
+	padding-right: 5px;
+}
+
+#toc a{
+	display: block;
+	font-size: 0.8em;
+}
+
+#toc a:hover{
+ cursor: pointer;
+}
