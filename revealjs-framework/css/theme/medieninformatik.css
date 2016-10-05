@@ -326,7 +326,7 @@ body {
 .reveal h2 {
   font-size: 1.5em; }
 
-.reveal h2.u, .reveal h1.u {
+.reveal h2.u, .reveal h1.u, .reveal h3.u {
   padding-bottom: 20px;
   margin-bottom: 30px;
   border-bottom: solid 1px #dd1166; }
