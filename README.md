@@ -4,9 +4,10 @@
 **[Im Wiki](https://github.com/th-koeln/wba1-2016/wiki)** finden Sie alle relevanten Informationen,
 Lernmaterialien, Ansprechpartner etc. zum Modul "Web-basierte Anwendungen 1": WWW-Technologien.
 
-**Bitte beachten sie besonders die Punkte**  
+**Wichtige und nützliche Links**  
 [Ablauf der Veranstaltung](https://github.com/fh-koeln/wba1-2016/wiki/Ablauf-der-Veranstaltung)  
-[MI-Wikiseite zum Einschreiben](http://www.medieninformatik.fh-koeln.de/w/index.php/Web-basierte_Anwendungen_1:_WWW-Technologien:WS1617) (undedingt erforderlich)  
+[MI-Wikiseite zum Einschreiben](http://www.medieninformatik.fh-koeln.de/w/index.php/Web-basierte_Anwendungen_1:_WWW-Technologien:WS1617) (undedingt erforderlich)
+[Folien zu WBA1](http://th-koeln.github.io/wba1-2016)
 
 **Coaches**  
 [Prof. Christian Noss](https://github.com/cnoss), TH Köln  
