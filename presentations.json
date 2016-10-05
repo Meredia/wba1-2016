@@ -5,7 +5,36 @@
       "authors": [
         "Christian Noss"
       ],
-      "date": "2015-10-08"
+      "date": "2016-10-06"
+    },
+    "web-basics/index.html": {
+      "title": "Web Basics",
+      "authors": [
+        "Christian Noss"
+      ],
+      "date": "2016-10-06"
+    },
+    "wba-kickoff/index.html": {
+      "title": "WBA1 Kick-off",
+      "authors": [
+        "Christian Noss"
+      ],
+      "date": "2016-10-06"
+    }
+    ,
+    "jans-retrospektove/index.html": {
+      "title": "Jans Retrospektive",
+      "authors": [
+        "Jan Kus"
+      ],
+      "date": "2016-10-06"
+    },
+    "git-basics/index.html": {
+      "title": "Git & GitHub",
+      "authors": [
+        "Jan Kus"
+      ],
+      "date": "2016-10-06"
     }
   }
 }
