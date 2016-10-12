@@ -136,20 +136,20 @@
             <li> <b>MacOS</b>
               <ul>
                 <li> Alternativ per <b>homebrew</b> ( http://brew.sh/ ) </li>
-                <li> <code> brew install git </code> </li>
+                <li> <code class="_violett"> brew install git </code> </li>
               </ul>
             </li>
             <li> <b>Windows</b>
               <ul>
-                <li> <b> Git-Bash</b> für Installation auswählen </li>
+                <li> <b> Git-Bash</b> während des Installationprozesses auswählen </li>
                 <li> Nutzung wird <u>empfohlen</u>, da damit die Git-Nutzung unter Windows angenehmer ist</li>
               </ul>
             </li>
             <li> <b>GNU/Linux</b>
               <ul>
-                <li> <code>apt-get install git </code> # Debian / Ubuntu </li>
-                <li> <code>yum install git</code> # Fedora </li>
-                <li> <code>pacman -S git</code> # Arch </li>
+                <li> <code class="_violett">apt-get install git </code> # Debian / Ubuntu </li>
+                <li> <code class="_violett">yum install git</code> # Fedora </li>
+                <li> <code class="_violett">pacman -S git</code> # Arch </li>
                 <li> usw. </li>
               </ul>
             </li>
@@ -205,6 +205,31 @@
         </section>
 
         <section>
+          <h2>Git-Konfiguration vornehmen</h2>
+
+          <ul>
+            <li>Nur für das aktuelle Repository gültig
+                <ul>
+                    <li> <code class="_violett">git config user.name "<b>&lt;Vorname&gt; &lt;Nachname&gt;</b>"</code> </li>
+                    <li> <code class="_violett">git config user.email <b>&lt;name&gt;@&lt;host&gt;.&lt;tld&gt;</b></code> </li>
+                </ul>
+            </li>
+            <li>Für alle Repositories auf dem Rechner gültig (global)
+                <ul>
+                    <li> <code class="_violett">git config <b>--global</b> user.name "<b>&lt;Vorname&gt; &lt;Nachname&gt;</b>"</code> </li>
+                    <li> <code class="_violett">git config <b>--global</b> user.email <b>&lt;name&gt;@&lt;host&gt;.&lt;tld&gt;</b></code> </li>
+                    <li> <b>WICHTIG:</b> EMail-Adresse angeben, mit der man sich bei GitHub registriert hat</b></li>
+                </ul>
+            </li>
+            <li>UI-Farben global für alle Repositories aktivieren
+                <ul>
+                    <li> <code class="_violett">git config --global color.ui auto</code> </li>
+                </ul>
+            </li>
+          </ul>
+        </section>
+
+        <section>
           <h2>Profil-Datei erstellen</h2>
 
           <ul>
@@ -215,10 +240,10 @@
               <pre>
                 <code>
 {
-  "surname"     : "Nachname",
-  "name"        : "Vorname",
-  "work_package": "Arbeitspaket",
-  "motto"       : "Motto"
+  "surname"     : "&lt;Nachname&gt;",
+  "name"        : "&lt;Vorname&gt;",
+  "work_package": "&lt;Arbeitspaket&gt;",
+  "motto"       : "&lt;Motto&gt;"
 }
                 </code>
               </pre>
