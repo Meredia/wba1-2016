@@ -1,0 +1,11 @@
+header {
+    align-items: baseline;
+    margin-left: 10em;
+}
+
+#input_,#unten_{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
