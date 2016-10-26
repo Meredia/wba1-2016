@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Kontaktformular</title>
+	<style type="text/css">
+		body {
+			font-family: Helvetica, Arial, Sans-Serif;
+		}
+		
+		form {
+			background-color: #EEE;
+			margin: auto;
+			padding: 10px 15px;
+			width: 330px;
+		}
+		
+		input,
+		textarea {
+			display: block;
+			margin: 0 0 10px 0;
+			width: 300px;
+		}
+		
+		textarea {
+			height: 100px;
+		}
+		
+		fieldset {
+			margin: 0 0 10px;
+		}
+		
+		h1 {
+			margin: 0 0 20px 0;
+			padding: 0;
+		}
+		
+		input[type="submit"] {
+			width: 150px;
+		}
+		
+		label {
+			font-size: 12px;
+		}
+		
+		.error {
+			background-color: #ffd1d1;
+		}
+	</style>
+</head>
+
+<body>
+	<form action="http://google.de" method="get" name="formular" id="formular">
+		<h1>Kontaktformuler</h1>
+		<fieldset>
+			<legend>Kontaktdaten</legend>
+			<div>
+				<label for="vorname" id="labelVorname">Vorname:</label>
+				<input type="text" id="vorname">
+			</div>
+			<div>
+				<label for="nachname" class="pflichtfeld" id="labelNachname">Nachname: </label>
+				<input type="text" id="nachname">
+			</div>
+			<div>
+				<label for="email" id="labelEmail">E-Mail-Adresse:</label>
+				<input type="text" id="email">
+			</div>
+		</fieldset>
+		<fieldset>
+			<legend>Nachricht</legend>
+			<div>
+				<label for="betreff" id="labelBetreff">Betreff:</label>
+				<input type="text" id="betreff">
+			</div>
+			<div>
+				<label for="nachricht" id="labelNachricht">Ihre Nachricht:</label>
+				<textarea class="pflichtfeld" id="nachricht"></textarea>
+			</div>
+		</fieldset>
+		<input type="submit" value="Nachricht abschicken">
+	</form>
+</body>
+
+</html>
