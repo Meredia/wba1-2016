@@ -1,0 +1,43 @@
+
+{"quiz": [
+	{
+        "quizID": "0",
+		"titel": "Effzeh - Fußballtraum im Schatten des Doms",
+		"autor": "Hennes48",
+		"datum": "17.06.2016",
+        "spielzahl": "524",
+        "bild": "/URL",
+        "text": 
+        "Das FC-Quizz schlecht hin. Der wahre FC Fan beantwortet diese Fragen im Schlaf. Dabei handelt es sich nicht nur um Fragen zur Fußballerischen Geschichte des Vereins, denn der FC hat auch außerhalb des Platzes eine große Geschichte. Mit diesem Quizz kannst du dein Wissen über den besten Verein der Welt testen. Los geht's!"
+	},
+    {
+        "quizID": "1",
+		"titel": "Das Stadion Quizz",
+		"autor": "Hennes48",
+		"datum": "17.06.2016",
+        "spielzahl":"67",
+        "bild":"/URL",
+        "text": 
+        "Die größten, bedeutensten, modernsten und wichtigsten Stadien der Welt. Kaum etwas ist bei großen Verienen so bedeutend wie das Stadion. Es ist nicht nur ein Statussymbol für jeden erfolgreichen Verein, sondern oft auch ein Denkmal für große Ereignisse in der Historie eines Vereiens. Hier findest Fragen zu den Stadien der Welt. Auf geht's!"
+	},
+    {
+        "quizID": "2",
+		"titel": "Effzeh - mer wesse alles üvver dich",
+		"autor": "Peter Heine",
+		"datum": "15.05.2016",
+        "spielzahl": "5003",
+        "bild": "/URL",
+        "text": 
+        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+	},
+    {
+        "quizID": "3",
+		"titel": "FC St. Pauli - Die wahren Hamburger",
+		"autor": "NilsBohn",
+		"datum": "08.08.2016",
+        "spielzahl": "20001",
+        "bild": "/URL",
+        "text": 
+        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+	}
+]}
