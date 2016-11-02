@@ -1,0 +1,78 @@
+---
+layout: default
+---
+
+<div class="modulbeschreibung pure-g content">
+	
+	<article class="pure-u-5-5">  
+		<h1>{{ page.title }}</h1>
+		
+		<dl>
+			<dt>Modulverantwortlich: </dt><dd>{{page.modulverantwortlich}}</dd>
+			{% assign check = page.modulniveau | strip_newlines %}
+			{% if check != ""  %}
+			<dt>Modulniveau: </dt><dd>{{page.modulniveau}}</dd>
+			{% endif %}
+			
+			{% assign check = page.modulniveau | strip_newlines %}
+			{% if check != ""  %}
+			<dt>Kürzel: </dt><dd>{{page.kuezel}}</dd>
+			{% endif %}
+			
+			{% assign check = page.untertitel | strip_newlines %}
+			{% if check != ""  %}
+			<dt>Untertitel: </dt><dd>{{page.untertitel}}</dd>
+			{% endif %}
+			
+			{% assign check = page.studiensemester | strip_newlines %}
+			{% if check != ""  %}
+			<dt>Studiensemester: </dt><dd>{{page.studiensemester}}</dd>
+			{% endif %}
+			
+			{% assign check = page.kategorie | strip_newlines %}
+			{% if check != ""  %}
+			<dt>Kategorie: </dt><dd>{{page.kategorie}}</dd>
+			{% endif %}
+			
+			{% assign check = page.sprache | strip_newlines %}
+			{% if check != ""  %}
+			<dt>Sprache: </dt><dd>{{page.sprache}}</dd>
+			{% endif %}
+			
+			{% assign check = page.zuordnung-zum-curriculum | strip_newlines %}
+			{% if check != ""  %}
+			<dt>Zuordnung zum Curriculum: </dt><dd>{{page.zuordnung-zum-curriculum}}</dd>
+			{% endif %}
+			
+			{% assign check = page.lehrform-sws | strip_newlines %}
+			{% if check != ""  %}
+			<dt>Lehrform/SWS: </dt><dd>{{page.lehrform-sws}}</dd>
+			{% endif %}
+			
+			{% assign check = page.arbeitsaufwand | strip_newlines %}
+			{% if check != ""  %}
+			<dt>Arbeitsaufwand: </dt><dd>{{page.arbeitsaufwand}}</dd>
+			{% endif %}
+			
+			{% assign check = page.kreditpunkte | strip_newlines %}
+			{% if check != ""  %}
+			<dt>Kreditpunkte: </dt><dd>{{page.kreditpunkte}}</dd>
+			{% endif %}
+			
+			{% assign check = page.voraussetzungen-nach-pruefungsordnung | strip_newlines %}
+			{% if check != ""  %}
+			<dt>Voraussetzungen nach Prüfungsordnung: </dt><dd>{{page.voraussetzungen-nach-pruefungsordnung}}</dd>
+			{% endif %}
+			
+			{% assign check = page.empfohlene-voraussetzungen | strip_newlines %}
+			{% if check != ""  %}
+			<dt>Empfohlene Voraussetzungen: </dt><dd>{{page.empfohlene-voraussetzungen}}</dd>
+			{% endif %}
+			
+		</dl>
+
+		<div class="entry">
+		{{ content }}
+  		</div>
+	</article>
+</div>

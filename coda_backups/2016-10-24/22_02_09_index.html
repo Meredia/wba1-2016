@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div id="layout" class="pure-g content">
+        
+        <header>
+	        <h2>Modulbeschreibungen Bachelor</h2>
+        </header>
+        
+		{% for modulbeschreibung in site.modulbeschreibungenbachelor %}
+			<a href="{{site.baseurl}}{{modulbeschreibung.url}}">
+			<article>
+				<h3>{{modulbeschreibung.title}}</h3>
+				<dl>
+					<dt>letzte Änderung</dt><dd>{{modulbeschreibung.date | date: '%B %d, %Y' }}</dd>
+				</dl>
+			</article>
+			</a>
+		{% endfor %}
+    </section>
+
+</div>

@@ -1,0 +1,38 @@
+header, footer, section{
+	padding: 20px;
+}
+
+header, footer{
+	background-color: #eee;
+}
+
+.answer-list{
+	padding: 0;
+	margin: 0;
+}
+
+.answer{
+	display: block;
+	margin-bottom: 10px;
+}
+
+.answer .button{
+	display: block;
+	width: 100%;
+}
+
+#progress-wrap, #progress-bar{
+	width: 100%;
+	height: 5px;
+	background-color: #aaa;
+}
+
+#progress-bar{
+	background-color: #000;
+	transition: all 5s linear;
+	width: 100%;
+}
+
+#progress-bar.countdown{
+	width: 0;
+}

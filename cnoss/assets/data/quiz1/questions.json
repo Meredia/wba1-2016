@@ -1,0 +1,42 @@
+{
+	
+	"question1":	{
+		"questionIdx": 1,
+		"question": "Wann wurde der Verein - damals noch FV Werder Bremen - gegründet?",
+		"options": {
+			"optionA": "01.Oktober 1893",
+      "optionB": "04.Februar 1899",
+		  "optionC": "07.Juli 1907",
+		  "optionD": "01.Januar 1920"
+		},
+		"answer": "A"
+		},
+
+
+	"question2":	{
+	
+		"questionIdx": 2,
+		"question": "Werders Rekordtorschütze Claudio Pizarro ist ein absoluter Pferde-Narr. Mit seinem früheren Bayern-Mitspieler Thomas Müller hat er ein gemeinsames Pferd. Wie heißt es?",
+		"options": {
+		  "optionA": "Don Jupp",
+		  "optionB": "Hoeneß",
+		  "optionC": "Mia san Triple",
+		  "optionD": "Hattrick"
+		},
+		"answer": "D"
+		},
+
+
+	"question3":	{
+		"questionIdx": 3,
+		"question": "Arnd Zeigler ist einer der größten Fußball-Nerds der Republik, regiert 'Zeiglerswunderbare Welt des Fußball' in Radio und Fernsehen und ist außerdem Stadionsprecher im Weserstadion. Wie aber heißt sein Co-Stadionsprecher?",
+		"options":{
+		  "optionA": "Manfred 'Wolle' Wollenhaupt",
+		  "optionB": "Christian 'Stolli' Stoll",
+		  "optionC": "Andres 'Action-Andy' Schneider",
+		  "optionD": "Norbert 'Nobbi' Germeshausen"
+		},
+		"answer": "C"
+		}
+		
+}
