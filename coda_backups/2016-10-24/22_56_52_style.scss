@@ -1,0 +1,179 @@
+---
+---
+
+//
+// IMPORTS
+//
+
+@import "reset";
+@import "variables";
+// Syntax highlighting @import is at the bottom of this file
+
+/**************/
+/* BASE RULES */
+/**************/
+
+$bfs: 1rem;
+$bfs-gross: $bfs * 2;
+$bfs-mittel: $bfs * 1.5;
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background: $white;
+  font: 18px/1.4 $font;
+  color: $darkGray;
+}
+
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    /* Set your content font stack here: */
+    font-family: $font;
+}
+
+.overview{
+	dl{
+		dt,dd{
+			display: inline-block;
+			color: $gray;
+		}
+		
+		dt::after{
+			content: ": ";
+		}
+		
+		dd{
+			padding-left: $bfs /4;
+		}
+		
+		dd + dt::before{
+			content: "//";
+			margin-left: $bfs;
+			padding-right: $bfs;		
+		}
+	}
+}
+
+
+
+
+/**************/
+/* Header     */
+/**************/
+
+.main-header{
+
+	padding-top: $bfs-gross;
+	padding-bottom: $bfs-gross /2;
+
+	border-bottom: dotted 2px $mi-pink;
+	margin-bottom: $bfs;
+	padding-bottom: $bfs;
+	
+	&::after{
+    	content: " "; /* 1 */
+		display: table; /* 2 */
+	}
+	
+	.site-avatar{
+		img{ height: 120px; }
+		float: left;
+		margin-right: $bfs *2;
+		display: block;
+	}	
+	
+	.site-info{
+		float: left;
+	}
+	
+	.site-name, .site-name a{
+		font-size: $bfs * 2.5;
+		font-weight: 700;
+		color: $mi-pink;
+		text-decoration: none;
+		line-height: 100%;
+	}
+	
+	.site-description{
+		font-size: $bfs * 1.8;
+	}
+}
+
+
+/**************/
+/* Footer     */
+/**************/
+
+footer{
+	.main-footer{
+		border-top: dotted 2px $mi-pink;
+		margin-top: $bfs *2;
+		padding-top: $bfs;
+	}
+}
+
+/**************/
+/* Content    */
+/**************/
+
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    max-width: 1200px;
+}
+
+.index + .index{
+	display: block;
+	border-top: dotted 1px $mi-pink;
+	padding-top: $bfs;
+	margin-top: $bfs;
+}
+
+section, article{
+
+	
+	a{
+		text-decoration: none;
+		color: $mi-lila;
+	}
+	
+	h1, h2{
+		font-size: $bfs-gross;
+		margin-bottom: $bfs;
+		font-weight: bold;
+	}
+	
+	article h3{
+		font-size: $bfs-mittel;
+	}
+}
+
+.modulbeschreibung{
+	dl{
+		dd{
+			display: inline;
+			margin: 0;
+		}
+		
+		dd:after{
+			display: block;
+			content: '';
+		}
+		
+		dt{
+			display: inline-block;
+			min-width: 20px;
+		}
+	}
+}
+
+
+// Settled on moving the import of syntax highlighting to the bottom of the CSS
+// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+@import "highlights";
+@import "svg-icons";

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+	
+	
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+	  
+    <div id="layout" class="pure-g content">
+        <header class="main-header pure-u-5-5">
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+          <div class="site-info">
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <p class="site-description">{{ site.description }}</p>
+          </div>
+
+          <!--nav>
+            <a href="{{ site.baseurl }}/">Blog</a>
+            <a href="{{ site.baseurl }}/about">About</a>
+          </nav-->
+        </header>
+        
+        <section class="pure-u-5-5">
+	        
+	        <header>
+		        <h2>Modulbeschreibungen Bachelor</h2>
+	        </header>
+	        
+			{% for modulbeschreibungen-bachelor in site.modulbeschreibungen-bachelor %}
+			<article>
+				<h3>{{modulbeschreibungen-bachelor.title}}</h3>
+				<dl>
+					<dt>letzte Änderung</dt><dd>{{modulbeschreibungen-bachelor.date | date: '%B %d, %Y' }}</dd>
+					<dt>Autor</dt><dd>{{modulbeschreibungen-bachelor.autor}}</dd>
+				</dl>
+			</article>
+			{% endfor %}
+        </section>
+
+        
+    </div>
+
+    <!--div id="main" role="main" class="container">
+      {{ content }}
+    </div>
+    
+    {% for modulbeschreibungen-bachelor in site.modulbeschreibungen-bachelor %}
+    aA
+    {% endfor %}
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          {% include svg-icons.html %}
+        </footer>
+      </div>
+    </div-->
+
+  </body>
+</html>

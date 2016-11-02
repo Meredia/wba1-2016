@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+	<meta charset="utf-8">
+
+	<!-- Title of presentation -->
+	<title>Draft: Themen und Arbeitspakete</title>
+	<!-- Short description of presentation -->
+	<meta name="description" content="Vortrag - Web-basics">
+	<!-- Author of presentation -->
+	<meta name="author" content="Volker Schaefer">
+
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="stylesheet" href="../revealjs-framework/css/reveal.min.css">
+	<link rel="stylesheet" href="../revealjs-framework/css/theme/medieninformatik.css" id="theme">
+
+	<!-- For syntax highlighting -->
+	<link rel="stylesheet" href="../revealjs-framework/lib/css/zenburn.css">
+	
+	<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+	<script>
+		document.write('<link rel="stylesheet" href="../revealjs-framework/css/print/' + (window.location.search.match(/print-pdf/gi) ? 'pdf' : 'paper') + '.css" type="text/css" media="print">');
+	</script>
+	<style type="text/css">
+		.tabelle {
+			table-layout: fixed;
+		}
+		.tabelle td {
+			background-color: #404040;
+		}
+		.tabelle td,
+		.tabelle th {
+			font-size: 0.8em;
+			border: 4px solid black;
+			text-align: center !important;
+		}
+		.tabelle th {
+			font-weight: normal;
+		}
+		.kaestchen {
+			margin: 30px 0 0 30px !important;
+		}
+		.kaestchen li {
+			background-color: #DD1166;
+			color: white;
+			display: inline-bock;
+			float: left;
+			list-style-type: none;
+			margin: 0 15px 15px 0;
+			padding: 10px;
+			text-align: center;
+			width: 230px;
+		}
+		.fullscreenImage .reveal .slides {
+			height: 100% !important;
+			left: 0;
+			margin: 0 auto;
+			padding: 0;
+			top: 0;
+			width: 100% !important;
+		}
+		.fullscreenImage .reveal .slides > section {
+			background-position-x: center;
+			background-position-y: 10px;
+			background-repeat: no-repeat;
+			background-size: auto 90%;
+			height: 100%;
+			left: 0;
+			margin: 0;
+			position: absolute;
+			top: 0;
+			width: 100%;
+		}
+		.fullscreenImage .reveal .slides > section .bu {
+			background-color: rgba(221, 17, 102, 0.8);
+			top: 100px;
+			display: inline-block;
+			color: white;
+			padding: 0 10px 0 100px;
+			position: absolute;
+		}
+		.fullscreenImage .reveal .slides > section .quelle {
+			bottom: 10px;
+			color: white;
+			display: inline-block;
+			font-size: 14px;
+			margin: 0 0 0 10px;
+			position: absolute;
+		}
+		.fullscreenImage .reveal .slides > section p {
+			margin: 0;
+		}
+		.nobackground .reveal .slides > section {
+			background-image: none;
+		}
+		.whiteBackground .state-background {
+			background-color: white;
+		}
+	</style>
+	<!--[if lt IE 9]>
+		<script src="../revealjs-framework/lib/js/html5shiv.js"></script>
+		<![endif]-->
+</head>
+
+<body>
+
+	<div class="reveal">
+
+		<!-- Any section element inside of this container is displayed as a slide -->
+		<div class="slides">
+
+			<section>
+				<h1>Web-basierte Anwendungen 1</h1>
+				<h2 class="u">Themen & Arbeitspakete</h2>
+
+				<div id="toc">
+				</div>
+			</section>
+
+            <section class="paket">
+				<h2 class="u">Datenstrukturen und Programmablauf</h2>
+				<p>Views und Programmabläufe durchgehen und ggf. erweitern. Prüfen wann welche Daten erforderlich sind und entsprechende JSON Struktur aufbauen und dokumentieren. JSON Files mit konkretem Inhalt erstellen und via github.io verfügbar machen.</p>
+				<dl class="arbeitspakete">
+					<dt>Komplexität</dt><dd>mittel</dd>
+					<dt>Sinnvolle Vorkenntnisse</dt><dd>gering</dd>
+					<dt>Bearbeiter</dt><dd>N.N.</dd>
+					<dt>Projektseite</dt><dd></dd>
+					<dt>Priorität</dt><dd>2</dd>
+					<dt>Erforderlich ab Niveaustufe</dt><dd>passable Lösung</dd>
+				</dl>
+			</section>
+
+            <section class="paket">
+				<h2 class="u">Statische Version WebApp Rahmen</h2>
+				<p>HTML und Styles für WebApp Rahmen, Header und Footer aufbauen und dokumentieren. </p>
+				<dl class="arbeitspakete">
+					<dt>Komplexität</dt><dd>mittel</dd>
+					<dt>Sinnvolle Vorkenntnisse</dt><dd>gering</dd>
+					<dt>Bearbeiter</dt><dd>N.N.</dd>
+					<dt>Projektseite</dt><dd></dd>
+					<dt>Priorität</dt><dd>1</dd>
+					<dt>Erforderlich ab Niveaustufe</dt><dd>akzeptable Lösung</dd>
+				</dl>
+			</section>
+			
+            <section class="paket">
+				<h2 class="u">Statische Version Quizübersicht</h2>
+				<p>HTML und Styles für Quizübersicht aufbauen und dokumentieren. </p>
+				<dl class="arbeitspakete">
+					<dt>Komplexität</dt><dd>mittel</dd>
+					<dt>Sinnvolle Vorkenntnisse</dt><dd>gering</dd>
+					<dt>Bearbeiter</dt><dd>N.N.</dd>
+					<dt>Projektseite</dt><dd></dd>
+					<dt>Priorität</dt><dd>1</dd>
+					<dt>Erforderlich ab Niveaustufe</dt><dd>akzeptable Lösung</dd>
+				</dl>
+			</section>
+			
+            <section class="paket">
+				<h2 class="u">Statische Version Startscreen Quiz</h2>
+				<p>HTML und Styles für den Startscreen eines Quiz aufbauen und dokumentieren. </p>
+				<dl class="arbeitspakete">
+					<dt>Komplexität</dt><dd>mittel</dd>
+					<dt>Sinnvolle Vorkenntnisse</dt><dd>gering</dd>
+					<dt>Bearbeiter</dt><dd>N.N.</dd>
+					<dt>Projektseite</dt><dd></dd>
+					<dt>Priorität</dt><dd>1</dd>
+					<dt>Erforderlich ab Niveaustufe</dt><dd>akzeptable Lösung</dd>
+				</dl>
+			</section>
+			
+            <section class="paket">
+				<h2 class="u">Statische Version Quizrunde</h2>
+				<p>HTML und Styles für Quizrunde aufbauen und dokumentieren. </p>
+				<dl class="arbeitspakete">
+					<dt>Komplexität</dt><dd>mittel</dd>
+					<dt>Sinnvolle Vorkenntnisse</dt><dd>gering</dd>
+					<dt>Bearbeiter</dt><dd>N.N.</dd>
+					<dt>Projektseite</dt><dd></dd>
+					<dt>Priorität</dt><dd>1</dd>
+					<dt>Erforderlich ab Niveaustufe</dt><dd>akzeptable Lösung</dd>
+				</dl>
+			</section>
+			
+            <section class="paket">
+				<h2 class="u">Statische Version Schlussscreen Quiz</h2>
+				<p>HTML und Styles für Abschlussscreen der Quizrunde aufbauen und dokumentieren. </p>
+				<dl class="arbeitspakete">
+					<dt>Komplexität</dt><dd>mittel</dd>
+					<dt>Sinnvolle Vorkenntnisse</dt><dd>gering</dd>
+					<dt>Bearbeiter</dt><dd>N.N.</dd>
+					<dt>Projektseite</dt><dd></dd>
+					<dt>Priorität</dt><dd>1</dd>
+					<dt>Erforderlich ab Niveaustufe</dt><dd>akzeptable Lösung</dd>
+				</dl>
+			</section>
+			
+            <section class="paket">
+				<h2 class="u">Statische Version Hightscoreliste</h2>
+				<p>HTML und Styles für die Highscoreliste aufbauen und dokumentieren. </p>
+				<dl class="arbeitspakete">
+					<dt>Komplexität</dt><dd>mittel</dd>
+					<dt>Sinnvolle Vorkenntnisse</dt><dd>gering</dd>
+					<dt>Bearbeiter</dt><dd>N.N.</dd>
+					<dt>Projektseite</dt><dd></dd>
+					<dt>Priorität</dt><dd>1</dd>
+					<dt>Erforderlich ab Niveaustufe</dt><dd>akzeptable Lösung</dd>
+				</dl>
+			</section>
+
+            <section class="paket">
+				<h2 class="u">CSS Präprozessoren</h2>
+				<p>Paket 1: Workshop zu CSS Präprozessoren erarbeiten und Teams schulen.</p>
+				<p>Paket 2: CSS Präprozessor integrieren, Workflow entwickeln und implementieren. Teams einweisen.</p>
+				<dl class="arbeitspakete">
+					<dt>Komplexität</dt><dd>hoch</dd>
+					<dt>Sinnvolle Vorkenntnisse</dt><dd>CSS</dd>
+					<dt>Bearbeiter</dt><dd>N.N.</dd>
+					<dt>Projektseite</dt><dd></dd>
+					<dt>Priorität</dt><dd>2</dd>
+					<dt>Erforderlich ab Niveaustufe</dt><dd>gute Lösung</dd>
+				</dl>
+			</section>
+			
+            <section class="paket">
+				<h2 class="u">JS Template Engine</h2>
+				<p>Paket 1: Workshop zu JS Template Engines/ Frameworks (Mustache, Ember, Backbone)  ausarbeiten und Teams schulen.</p>
+				<p>Paket 2: JS Template Engine, bzw. Framework sinnvoll auswählen und integrieren.</p>
+				<dl class="arbeitspakete">
+					<dt>Komplexität</dt><dd>sehr hoch</dd>
+					<dt>Sinnvolle Vorkenntnisse</dt><dd>JS, HTML</dd>
+					<dt>Bearbeiter</dt><dd>N.N.</dd>
+					<dt>Projektseite</dt><dd></dd>
+					<dt>Priorität</dt><dd>2</dd>
+					<dt>Erforderlich ab Niveaustufe</dt><dd>gute Lösung</dd>
+				</dl>
+			</section>
+			
+			<section class="paket">
+				<h2 class="u">Spiellogik</h2>
+				<p>Ausarbeitung und Integration der Spiellogik für eine Quizrunde.</p>
+				<dl class="arbeitspakete">
+					<dt>Komplexität</dt><dd>mittel</dd>
+					<dt>Sinnvolle Vorkenntnisse</dt><dd>JS, HTML</dd>
+					<dt>Bearbeiter</dt><dd>N.N.</dd>
+					<dt>Projektseite</dt><dd></dd>
+					<dt>Priorität</dt><dd>2</dd>
+					<dt>Erforderlich ab Niveaustufe</dt><dd>gute Lösung</dd>
+				</dl>
+			</section>		
+	
+			<section class="paket">
+				<h2 class="u">Programmlogik</h2>
+				<p>Integration der Programmlogik via Javascript oder JS Framework.</p>
+				<dl class="arbeitspakete">
+					<dt>Komplexität</dt><dd>hoch</dd>
+					<dt>Sinnvolle Vorkenntnisse</dt><dd>JS, HTML</dd>
+					<dt>Bearbeiter</dt><dd>N.N.</dd>
+					<dt>Projektseite</dt><dd></dd>
+					<dt>Priorität</dt><dd>2</dd>
+					<dt>Erforderlich ab Niveaustufe</dt><dd>beste Lösung</dd>
+				</dl>
+			</section>
+			
+            <section class="paket">
+				<h2 class="u">Assetaufbereitung und -management</h2>
+				<p>Paket 1: Assets, vor allem Bilder, Icons, Fonts und Grafiken, aufbereiten und in geeigneter Form, strukuriert bereit stellen.</p>
+				<p>Paket 2: Vortrag für die Company zum Thema Assets erarbeiten und Company schulen/ sensibilisieren.</p>
+				<dl class="arbeitspakete">
+					<dt>Komplexität</dt><dd>mittel</dd>
+					<dt>Sinnvolle Vorkenntnisse</dt><dd>Grafiktools, ggf. CSS</dd>
+					<dt>Bearbeiter</dt><dd>N.N.</dd>
+					<dt>Projektseite</dt><dd></dd>
+					<dt>Priorität</dt><dd>1</dd>
+					<dt>Erforderlich ab Niveaustufe</dt><dd>akzeptable Lösung</dd>
+				</dl>
+			</section>
+			
+            <section class="paket">
+				<h2 class="u">Rechte</h2>
+				<p>Bei den Fubuizz Fußballquizzen sollen verschiedene externe Quellen genutzt werden. Im Rahmen einer Recherche und Ausarbeitung soll ermittelt werden, welche Rechte hierbei berücksichtigt werden und wie eine Integration und Auszeichnung externer Quellen erfolgen sollte, damit hierbei keine negativen rechtlichen Konsequenzen drohen.</p>
+				<dl class="arbeitspakete">
+					<dt>Komplexität</dt><dd>mittel</dd>
+					<dt>Sinnvolle Vorkenntnisse</dt><dd>gering</dd>
+					<dt>Bearbeiter</dt><dd>N.N.</dd>
+					<dt>Projektseite</dt><dd></dd>
+					<dt>Priorität</dt><dd>3</dd>
+					<dt>Erforderlich ab Niveaustufe</dt><dd>gute Lösung</dd>
+				</dl>
+			</section>
+
+						<!-- End of slides container. -->
+
+		</div>
+
+	</div>
+
+	<script src="../revealjs-framework/lib/js/head.min.js"></script>
+	<script src="../revealjs-framework/js/reveal.min.js"></script>
+
+	<script>
+		// Full list of configuration options available here:
+		 // https://github.com/hakimel/reveal.js#configuration
+		Reveal.initialize({
+			controls: true,
+			progress: true,
+			history: true,
+			center: false,
+			width: 1000,
+
+			transition: 'linear', // default/cube/page/concave/zoom/linear/fade/none
+			transitionSpeed: 'fast', // default/fast/slow
+			backgroundTransition: 'none', // default/linear/none
+
+			// Optional libraries used to extend on reveal.js
+			dependencies: [
+				{
+					src: '../revealjs-framework/lib/js/classList.js',
+					condition: function () {
+						return !document.body.classList;
+					}
+				},
+				{
+					src: '../revealjs-framework/plugin/markdown/marked.js',
+					condition: function () {
+						return !!document.querySelector('[data-markdown]');
+					}
+				},
+				{
+					src: '../revealjs-framework/plugin/markdown/markdown.js',
+					condition: function () {
+						return !!document.querySelector('[data-markdown]');
+					}
+				},
+				{
+					src: '../revealjs-framework/plugin/highlight/highlight.js',
+					async: true,
+					callback: function () {
+						hljs.initHighlightingOnLoad();
+					}
+				},
+				{
+					src: '../revealjs-framework/plugin/zoom-js/zoom.js',
+					async: true,
+					condition: function () {
+						return !!document.body.classList;
+					}
+				},
+				{
+					src: '../revealjs-framework/plugin/notes/notes.js',
+					async: true,
+					condition: function () {
+						return !!document.body.classList;
+					}
+				}
+				]
+		});
+	</script>
+	
+	<script>
+		
+		// Pakete Nummerieren 
+		var sections = document.querySelectorAll('.paket h2'), i;
+		for (i = 0; i < sections.length; ++i) {
+			var n = i + 1;
+			var paket = "Paket " + n + ": " +sections[i].innerHTML;
+			sections[i].innerHTML = paket;
+			sections[i].parentNode.setAttribute("data-paket", paket);
+		}
+		
+		// Toc bauen
+		var sections = document.querySelectorAll('section'), i;
+		var toc = [];
+		for (i = 0; i < sections.length; ++i) {
+			var n = i + 1;
+			if(sections[i].hasAttribute("data-paket")){
+				var pair = {};
+				pair.id = i;
+				pair.value = sections[i].getAttribute("data-paket")
+				toc.push(pair);
+			}
+		}
+		
+		var toc_node = document.getElementById("toc");
+		var toc_html = "";
+		for (i = 0; i < toc.length; ++i) {
+			var link = document.createElement("a");
+			link.text = toc[i].value;
+			link.setAttribute("data-id", toc[i].id);
+			link.addEventListener("click", function(){ 
+				Reveal.slide(this.getAttribute("data-id"));
+			} );
+			toc_node.appendChild(link);
+		}
+
+		
+		
+		
+	</script>
+
+</body>
+
+</html>

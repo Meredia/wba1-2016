@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div id="layout" class="pure-g content">
+	
+	<article class="pure-u-5-5">  
+		<h1>{{ page.title }}</h1>
+		
+		<dl>
+			<dt>Modulverantwortlich</dt><dd>{{page.modulverantwortlich}}</dd>
+			<dt>Modulniveau</dt><dd>{{page.modulniveau}}</dd>
+			<dt>Kürzel</dt><dd>{{page.kuezel}}</dd>
+			<dt>Untertitel</dt><dd>{{page.untertitel}}</dd>
+			<dt>Studiensemester</dt><dd>{{page.studiensemester}}</dd>
+			<dt>Kategorie</dt><dd>{{page.kategorie}}</dd>
+			<dt>Sprache</dt><dd>{{page.sprache}}</dd>
+			<dt>Zuordnung zum Curriculum</dt><dd>{{page.zuordnung-zum-curriculum}}</dd>
+			<dt>Lehrform/SWS</dt><dd>{{page.lehrform-sws}}</dd>
+			<dt>Arbeitsaufwand</dt><dd>{{page.arbeitsaufwand}}</dd>
+		</dl>
+
+		<div class="entry">
+		{{ content }}
+  		</div>
+	</article>
+</div>
