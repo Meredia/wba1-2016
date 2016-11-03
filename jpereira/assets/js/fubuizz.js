@@ -73,7 +73,13 @@ Fubuizz.prototype.start = function() {
 
 		self.container.querySelector('#quizzes').innerHTML = itemCollectorHTML;
 
-		self.container.querySelectorAll('.quiz-item').forEach(function(node) {
+		/*
+			querySelector liefert eine Collection zurück, die über kein forEach verfügt.
+				Deswegen wandeln wir die Collection mit einem kleinen Trick erstmal in ein Array um.
+			 */
+		var quizItems = Array.prototype.slice.call(self.container.querySelectorAll('.quiz-item'));
+
+		quizItems.forEach(function(node) {
 			node.addEventListener('click', function() {
 				var quizId = this.id;
 				self.showQuiz(quizId);
@@ -121,9 +127,7 @@ Fubuizz.prototype.showQuiz = function(id) {
 
 
 Fubuizz.prototype.startQuiz = function() {
-	var self = this;
-
-	this.currentQuestionsKeys = Object.keys(self.quizData.getCurrentQuiz().questions).sort();
+	this.currentQuestionsKeys = Object.keys(this.quizData.getCurrentQuiz().questions).sort();
 
 	this.nextQuestion();
 };
@@ -150,7 +154,13 @@ Fubuizz.prototype.nextQuestion = function() {
 
 		self.userData.timestamp = new Date().getTime();
 
-		self.container.querySelectorAll('.answer button').forEach(function(node) {
+		/*
+			querySelector liefert eine Collection zurück, die über kein forEach verfügt.
+				Deswegen wandeln wir die Collection mit einem kleinen Trick erstmal in ein Array um.
+			 */
+		var buttons = Array.prototype.slice.call(self.container.querySelectorAll('.answer button'));
+
+		buttons.forEach(function(node) {
 			node.addEventListener('click', function() {
 				self.checkAnswer(this.id, self.currentQuestionKey);
 
